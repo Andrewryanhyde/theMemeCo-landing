@@ -20,7 +20,7 @@ export default function Home() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)] text-center">
+    <div className="flex flex-col items-center justify-center min-h-screen p-8 pb-20 gap-16 sm:p-20 bg-black text-white font-[family-name:var(--font-geist-sans)] text-center">
       <main className="flex flex-col gap-8 items-center">
         <Image
           src={logoWhite}
@@ -40,7 +40,7 @@ export default function Home() {
           <form
             action="https://thememeco.us12.list-manage.com/subscribe/post"
             method="POST"
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44 w-full sm:w-auto"
+            className="rounded-full border transition-colors flex items-center justify-center bg-[#1a1a1a] border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44 w-full sm:w-auto"
             noValidate
             target="_blank"
           >
@@ -71,7 +71,7 @@ export default function Home() {
           </form>
         </div>
       </main>
-      <footer className="flex gap-6 flex-wrap items-center justify-center fixed bottom-0 w-full py-4 bg-white dark:bg-black">
+      <footer className="flex gap-6 flex-wrap items-center justify-center fixed bottom-0 w-full py-4 bg-black text-white">
         <p>© TheMemeCo 2024</p>
       </footer>
     </div>
