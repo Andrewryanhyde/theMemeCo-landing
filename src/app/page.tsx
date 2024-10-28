@@ -30,10 +30,7 @@ export default function Home() {
           priority
         />
         <div className="text-sm font-[family-name:var(--font-geist-mono)]">
-          <p>
-            TheMemeCo is a meme-focused social media platform that allows users
-            to create, share, and discover memes.
-          </p>
+          <p>TheMemeCo is an AI-powered search engine for memes</p>
         </div>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
