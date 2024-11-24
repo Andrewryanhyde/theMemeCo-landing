@@ -70,6 +70,12 @@ export default function Home() {
       </main>
       <footer className="flex gap-6 flex-wrap items-center justify-center fixed bottom-0 w-full py-4 bg-black text-white">
         <p>© TheMemeCo 2024</p>
+        <a href="/terms" className="hover:underline">
+          Terms & Conditions
+        </a>
+        <a href="/privacy" className="hover:underline">
+          Privacy Policy
+        </a>
       </footer>
     </div>
   );
