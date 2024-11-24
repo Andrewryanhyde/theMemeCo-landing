@@ -118,10 +118,11 @@ export default function TermsAndConditions() {
             9. Disclaimer of Warranties
           </h2>
           <p>
-            TheMemeCo is provided on an "as is" and "as available" basis. We
-            disclaim all warranties of any kind, whether express or implied,
-            including but not limited to warranties of merchantability, fitness
-            for a particular purpose, and non-infringement.
+            TheMemeCo is provided on an &ldquo;as is&rdquo; and &ldquo;as
+            available&rdquo; basis. We disclaim all warranties of any kind,
+            whether express or implied, including but not limited to warranties
+            of merchantability, fitness for a particular purpose, and
+            non-infringement.
           </p>
         </section>
 
