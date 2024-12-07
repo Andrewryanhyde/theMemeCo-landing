@@ -73,7 +73,7 @@ export default function Home() {
         <a href="/terms-conditions" className="hover:underline">
           Terms & Conditions
         </a>
-        <a href="/privacy" className="hover:underline">
+        <a href="/privacy-policy" className="hover:underline">
           Privacy Policy
         </a>
       </footer>
