@@ -147,7 +147,38 @@ export default function TermsAndConditions() {
         </section>
 
         <section className="mb-6">
-          <h2 className="text-2xl font-semibold">12. Contact Us</h2>
+          <h2 className="text-2xl font-semibold">
+            13. End User License Agreement (EULA)
+          </h2>
+          <p>
+            By using TheMemeCo, you agree to our End User License Agreement
+            which includes:
+          </p>
+          <ul className="list-disc list-inside">
+            <li>
+              Zero tolerance for objectionable content including but not limited
+              to: hate speech, explicit adult content, violence, harassment,
+              discrimination, or any content that promotes illegal activities.
+            </li>
+            <li>
+              Immediate account termination for users who engage in abusive
+              behavior, including harassment of other users, spamming, or any
+              form of malicious activity.
+            </li>
+            <li>
+              TheMemeCo reserves the right to remove any content and terminate
+              any user account without prior notice if found in violation of
+              these terms.
+            </li>
+            <li>
+              Users agree to indemnify TheMemeCo against any claims arising from
+              their violation of these terms or misuse of the platform.
+            </li>
+          </ul>
+        </section>
+
+        <section className="mb-6">
+          <h2 className="text-2xl font-semibold">14. Contact Us</h2>
           <p>
             If you have any questions about these Terms and Conditions, please
             contact us at drew@thememeco.com.
