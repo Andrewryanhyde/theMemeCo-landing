@@ -34,6 +34,7 @@ export default function Support() {
       setStatus("success");
       setFormData({ name: "", email: "", message: "" });
     } catch (error) {
+      console.error(error);
       setStatus("error");
     }
   };
@@ -51,8 +52,8 @@ export default function Support() {
           />
           <h1 className="text-3xl font-bold mt-8 mb-4">Support</h1>
           <p className="text-center mb-8">
-            Have a question or need help? Send us a message and we'll get back
-            to you as soon as possible.
+            Have a question or need help? Send us a message and we&apos;ll get
+            back to you as soon as possible.
           </p>
         </div>
 
